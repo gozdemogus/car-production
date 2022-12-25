@@ -1,0 +1,78 @@
+{
+  "info": {
+    "name": "Car Production API",
+    "description": "A collection for testing the car production API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Produce Cabrio",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/produceCar?type=cabrio",
+          "protocol": "http",
+          "host": "localhost",
+          "port": "8080",
+          "path": [
+            "produceCar"
+          ],
+          "query": [
+            {
+              "key": "type",
+              "value": "cabrio"
+            }
+          ]
+        },
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Produce Sedan",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/produceCar?type=sedan",
+          "protocol": "http",
+          "host": "localhost",
+          "port": "8080",
+          "path": [
+            "produceCar"
+          ],
+          "query": [
+            {
+              "key": "type",
+              "value": "sedan"
+            }
+          ]
+        },
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Produce Hatchback",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/produceCar?type=hatchback",
+          "protocol": "http",
+          "host": "localhost",
+          "port": "8080",
+          "path": [
+            "produceCar"
+          ],
+          "query": [
+            {
+              "key": "type",
+              "value": "hatchback"
+            }
+          ]
+        },
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
